@@ -1,0 +1,12 @@
+.btn__search {
+  background-color: white !important;
+}
+
+.row > div {
+  margin-top: 25px;
+}
+
+footer > p {
+  height: 50px;
+  line-height: 50px;
+}
