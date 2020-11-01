@@ -12,6 +12,44 @@
   object-fit: cover;
 }
 
+thead > .cart-row {
+  margin-bottom: 10px;
+}
+
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-row {
+  width: 100%;
+  align-self: center;
+}
+
+.cart-quantity-input {
+  width: 50px;
+  margin-right: 10px;
+
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: rgb(245, 245, 245);
+  color: #333;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 footer > p {
   height: 50px;
   line-height: 50px;
